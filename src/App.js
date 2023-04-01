@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './comp/Main';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div>
-      <Main/>
-    </div>
+      <>
+      </>
   );
 }
 
